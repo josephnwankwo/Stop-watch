@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="/script.js" defer></script>
+
+    <title>Stop watch</title>
+  </head>
+  <body>
+    <main class="Stop-watch flex-container">
+      <div class="Stop-watch__container flex-container">
+        <p class="minutes">00</p>
+        :
+        <p class="seconds">00</p>
+        .
+        <p class="mil-seconds">00</p>
+      </div>
+      <div class="Stop-watch__buttons flex-container">
+        <div class="left-buttons">
+          <button class="lap-button">Lap</button>
+          <button class="reset-button hidden">Reset</button>
+        </div>
+        <div class="right-buttons">
+          <button class="start-button">Start</button>
+          <button class="stop-button hidden">Stop</button>
+        </div>
+      </div>
+    </main>
+    <div class="laps-container flex-container">
+      <div class="current-lap">Lap 1</div>
+      <div class="current-lap__value flex-container">
+        <p class="minutes">00</p>
+        :
+        <p class="seconds">00</p>
+        .
+        <p class="mil-seconds">00</p>
+      </div>
+    </div>
+  </body>
+</html>
